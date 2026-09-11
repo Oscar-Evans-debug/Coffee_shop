@@ -5,18 +5,9 @@ public class CoffeeShopTest : MonoBehaviour
     public int food = 0;
     public int foodnum = 0;
     public int coffeenum = 0;
-    public int coffeesSold = 5;
-    public float coffeePrice = 3.50f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void AddCoffee()
-    {
-        coffeesSold++;
-    }
     void Start()
     {
-        Debug.Log("coffees sold: " + coffeesSold);
-        AddCoffee();
-        Debug.Log("coffees sold: " + coffeesSold);
         CustomerFront();
     }
 
